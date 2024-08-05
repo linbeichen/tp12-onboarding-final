@@ -6,6 +6,7 @@ from map import create_map_page
 from accident import create_visualization_page
 # 创建 Dash 应用并添加 Bootstrap 样式
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP], suppress_callback_exceptions=True)
+server = app.server
 
 # 图像文件名
 right_image_filename = '/assets/picture1.jpeg'  # 第一项的现有图像
