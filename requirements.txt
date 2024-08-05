@@ -1,0 +1,9 @@
+dash==2.17.3
+dash_bootstrap_components
+dash_leaflet
+geopandas
+googlemaps
+pandas
+plotly
+polyline
+gunicorn
